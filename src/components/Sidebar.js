@@ -12,6 +12,7 @@ import { Routes } from "../routes";
 import ThemesbergLogo from "../assets/img/themesberg.svg";
 import ReactHero from "../assets/img/logo.png";
 import ProfilePicture from "../assets/img/team/profile-picture-3.jpg";
+import newLogo from '../assets/img/newLogo.png'
 
 export default (props = {}) => {
   const location = useLocation();
@@ -98,7 +99,7 @@ export default (props = {}) => {
             </div>
             <Nav className="flex-column pt-3 pt-md-0">
               {/* <NavItem title="OTT Admin" image={ReactHero} /> */}
-              <img src={ReactHero} width="120px" style={{marginBottom: "30px"}} />
+              <img src={newLogo} width="120px" style={{marginBottom: "30px"}} />
 
               <NavItem title="CDN" icon={faLink} link={Routes.Cdns.path} />
               <NavItem title="Streaming Locations" icon={faLocationArrow} link={Routes.Locations.path} />

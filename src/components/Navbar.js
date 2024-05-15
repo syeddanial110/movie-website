@@ -66,11 +66,11 @@ export default (props) => {
                   <Avatar name={name} size={40} round />
                 </div>
               </Dropdown.Toggle>
-              <Dropdown.Menu className="user-dropdown dropdown-menu-right mt-2">
+              {/* <Dropdown.Menu className="user-dropdown dropdown-menu-right mt-2">
                 <Dropdown.Item className="fw-bold" onClick={handleLogout} >
                   <FontAwesomeIcon icon={faSignOutAlt} className="text-danger me-2" /> Logout
                 </Dropdown.Item>
-              </Dropdown.Menu>
+              </Dropdown.Menu> */}
             </Dropdown>
           </Nav>
         </div>
